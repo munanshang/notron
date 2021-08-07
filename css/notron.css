@@ -1,1 +1,21 @@
-
+* {margin: 0;padding: 0;box-sizing: border-box;color:rgb(0,0,255);font-family: gangbi;}
+/*不显示滚动条*/
+*::-webkit-scrollbar {display: none;}
+body {
+	background: rgb(177,156,121);
+	background: url(https://gitee.com/munanshang/notron/raw/e6e42de6248fc6dfb82f9e5037f12444dcedfc63/image/background.jpg)no-repeat;
+	background-size: cover;
+	background-position: center;
+	background-attachment: fixed;
+}
+nav {margin-top: 20px;}
+ul {list-style-type: none;margin-top: 20px;}
+ul li {border-top: 2px dashed rgb(78,63,52);}
+ul li:last-child {border-bottom: 2px dashed rgb(78,63,52);}
+ul li a {display: block;color: rgb(0,0,255);padding: 4px 16px;text-decoration: none;text-align: center;}
+ul li a:hover:after {color: rgb(240,58,23);content: " √";}
+aside {width: 240px;position: fixed;height: 100%;overflow: auto;padding: 20px;background: rgb(177,156,121);}
+aside b {display: block;margin-top: 30px;padding: 5px 10px;border: 2px solid rgb(78,63,52);border-left: 6px solid brown;}
+.card {padding: 15px;border: 2px solid rgb(78,63,52);margin-top: 20px;}
+.card b {display: block;border-bottom: 6px double rgb(78,63,52);margin-bottom: 15px;color: brown;text-align: center;font-size: 35px;}
+.card p {border-bottom: 2px solid rgb(78,63,52);margin-top: 10px;}
